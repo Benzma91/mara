@@ -1,0 +1,23 @@
+Package: mara
+Title: Create Bar-Graphs out of Excel Data (One Line, Title Case)
+Version: 0.0.0.9001
+Authors@R: @benzma91, Marcelbenz@gmx.de
+    person(Marcel, Benz, c(aut)
+Description: imports Luciferase Data out of Excel files. Creates a Bar Graph using the data set uploaded. (one paragraph).
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+URL: https://github.com/Benzma91/mara
+BugReports: https://github.com/Benzma91/mara/issues
+Imports: 
+    dplyr,
+    ggplot2,
+    tibble
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+Depends: 
+    R (>= 2.10)
+LazyData: true
