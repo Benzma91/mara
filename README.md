@@ -17,3 +17,7 @@ install.packages(mara)
 *Use the dataset and run MGP(x) to generate a point plot
 
 *Use the dataset and run MGPbar(x) to generate a bar plot
+
+<!-- badges: start -->
+[![R-CMD-check](https://github.com/Benzma91/mara/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/Benzma91/mara/actions/workflows/R-CMD-check.yaml)
+<!-- badges: end -->
