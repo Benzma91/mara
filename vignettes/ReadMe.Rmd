@@ -14,7 +14,7 @@ knitr::opts_chunk$set(echo = TRUE)
 This package is designed to plot luciferase data of different Ebola Virus NP mutants. The Data needs to be provided in a simple Excel file containing the name of the mutants and the respective relative luciferase activity. The Plot is able to show 4 experiments. 
 
 # Installation
-use ```library(mara)```
+use ```install.packages(mara)```
 
 
 *Use the Mara_minigenome file as template for your data
