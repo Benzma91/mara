@@ -1,7 +1,7 @@
 Package: mara
 Title: Create Bar-Graphs out of Excel Data (One Line, Title Case)
 Version: 0.0.0.9001
-Authors@R:  person(given = "Marcel", family = "Benz", email = "marcelbenz@gmx.de", role = c("aut","cre"))
+Authors@R: person(given = "Marcel", family = "Benz", email = "marcelbenz@gmx.de", role = c("aut","cre"))
 Description: imports Luciferase Data out of Excel files. Creates a Bar Graph using the data set uploaded. (one paragraph).
 License: GPL (>= 3)
 Encoding: UTF-8
@@ -12,7 +12,8 @@ BugReports: https://github.com/Benzma91/mara/issues
 Imports: 
     dplyr,
     ggplot2,
-    tibble
+    magrittr,
+    tidyr
 Suggests: 
     knitr,
     rmarkdown
