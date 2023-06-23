@@ -28,6 +28,8 @@ MGPbar <- function(x){
              aes(y = mutant, x=prop_activity, fill = ID),
              position = "dodge",
              stat = "identity")+
-    scale_color_discrete()
+    scale_color_discrete() +
+    scale_fill_manual(values=cbPalette)
+  
   
 }
